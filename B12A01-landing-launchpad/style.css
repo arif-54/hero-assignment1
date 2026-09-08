@@ -140,3 +140,69 @@ body {
   color: #666;
   font-size: 15px;
 }
+
+.reviews {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px 100px;
+}
+
+.reviews h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #eef0f6;
+}
+
+.stars {
+  margin-bottom: 15px;
+}
+
+.stars img {
+  width: 16px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.reviewer img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.reviewer h4 {
+  font-size: 14px;
+}
+
+.reviewer p {
+  font-size: 12px;
+  color: #999;
+}
